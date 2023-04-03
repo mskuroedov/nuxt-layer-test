@@ -1,10 +1,13 @@
 <template>
-<FancyButton/>
+  <div>
+    playground
+    <SPUIButton>asd</SPUIButton>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "app"
+  name: "Playground"
 }
 </script>
 

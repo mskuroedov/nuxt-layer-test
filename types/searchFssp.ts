@@ -1,0 +1,4 @@
+
+export enum SearchTypeFssp {
+  DEFAULT = ''
+}

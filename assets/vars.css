@@ -1,0 +1,24 @@
+:root {
+  --bg-color: #fff;
+
+  --bg-primary-block: #f2f5f7;
+
+  --border-primary: #c1d1df;
+  --border-primary-hover: #c1d1df;
+
+  --primary-color: #286d97;
+  --primary-color-hover: #007ad9;
+  --primary-color-active: #286d97;
+
+  --secondary-color: #e1e4e5;
+  --secondary-color-hover: red;
+  --secondary-color-active: red;
+
+  --ternary-color: green;
+  --ternary-hover-color: green;
+  --ternary-active-color: green;
+
+  --error: #ea4848;
+  --danger: var(--error);
+
+}

@@ -12,12 +12,21 @@
     "postinstall": "nuxt prepare .playground"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^0.3.1",
     "@nuxt/eslint-config": "^0.1.1",
     "eslint": "^8.28.0",
-    "nuxt": "^3.0.0",
+    "nuxt": "^3.3.2",
+    "sass": "^1.60.0",
     "typescript": "^4.9.3"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.3.1"
+    "@nuxtjs/tailwindcss": "^6.6.3",
+    "@vuelidate/core": "^2.0.2",
+    "@vuelidate/validators": "^2.0.2",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
+    "floating-vue": "^2.0.0-beta.20",
+    "maska": "^2.1.7",
+    "nuxt-icon": "^0.3.3"
   }
 }

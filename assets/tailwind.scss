@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  @apply text-textColor
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply flex items-center justify-center h-[47px] px-3 text-center rounded-lg relative
+    font-bold text-white text-base
+    transition duration-200 outline-none cursor-pointer;
+
+    &.sm {
+      @apply h-[26px] px-5 py-0 rounded text-base font-normal;
+    }
+
+    &.primary {
+      @apply text-white bg-primary;
+
+      &:hover {
+        @apply bg-primary-hover;
+      }
+
+      &:active,
+      &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(38, 160, 255, .5);
+      }
+
+      &[disabled] {
+        @apply opacity-75;
+      }
+    }
+
+    &.primary-outline {
+      @apply text-primary bg-white border-2 border-primary;
+
+      &:hover {
+        @apply bg-primary-hover border-primary-hover text-white;
+      }
+
+      &:active,
+      &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(38, 160, 255, .5);
+      }
+
+      &[disabled] {
+        @apply opacity-75;
+      }
+    }
+
+    &.secondary {
+      @apply bg-secondary text-primary ;
+      &:hover {
+        @apply hover:bg-primary hover:text-white;
+      }
+    }
+  }
+}
